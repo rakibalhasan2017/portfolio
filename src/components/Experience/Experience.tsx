@@ -5,7 +5,7 @@ const experiences = [
     id: 1,
     role: 'Software Engineering Attachment',
     company: 'SynesisIT',
-    period: 'Present',
+    period: '3 November 2025 – 23 November 2025',
     location: 'Bangladesh',
     description: [
       'Gaining hands-on experience in professional software development practices',
