@@ -7,10 +7,11 @@ const Hero = () => {
         <div className={styles.content}>
           <span className={styles.greeting}>Hello, I'm</span>
           <h1 className={styles.name}>Rakib Al Hasan</h1>
-          <h2 className={styles.title}>Full Stack Developer | AI Enthusiast | Problem Solver</h2>
+          <h2 className={styles.title}>Full Stack Developer | DevOps & Cloud Engineer | AI Enthusiast</h2>
           <p className={styles.description}>
-            Building intelligent solutions with MERN Stack, GenAI, and RAG systems.
-            1700+ DSA problems solved. Passionate about turning complex ideas into elegant code.
+            Building scalable, secure systems with MERN Stack, Kubernetes, and GenAI. 
+Strong competitive programming background. Passionate about cloud-native 
+technologies and intelligent solutions.
           </p>
           <div className={styles.cta}>
             <a href="#projects" className={styles.primaryBtn}>

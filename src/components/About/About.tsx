@@ -11,22 +11,23 @@ const About = () => {
         
         <div className={styles.content}>
           <div className={styles.text}>
-            <p>
-              Hello! I'm a dedicated software enthusiast with a strong foundation in data structures 
-              and algorithms, having solved over <strong>1700 problems</strong> on platforms like Codeforces, 
-              VJudge, and LightOJ. This analytical mindset helps me tackle complex challenges efficiently.
-            </p>
-            <p>
-              I'm experienced in full-stack development using the <strong>MERN Stack</strong>, building 
-              scalable web applications with real-time features. Recently, I've extended my expertise to 
-              <strong> Generative AI (GenAI)</strong>, <strong>Retrieval Augmented Generation (RAG)</strong>, 
-              and <strong>Agentic AI</strong>, completing professional courses and developing real-world projects.
-            </p>
-            <p>
-              I'm passionate about AI-driven solutions and continuous learning. Whether it's optimizing 
-              algorithms, building intelligent systems, or deploying containerized applications, 
-              I bring dedication and curiosity to every project.
-            </p>
+           <p>
+  Hello! I'm a dedicated software enthusiast with a strong competitive programming background 
+  and solid foundation in data structures and algorithms. This analytical mindset, honed through 
+  solving <strong>1700+ problems</strong> on platforms like Codeforces, VJudge, and LightOJ, 
+  helps me tackle complex challenges efficiently.
+</p>
+<p>
+  I'm experienced in full-stack development using the <strong>MERN Stack</strong>, building 
+  scalable web applications with real-time features. Recently, I've extended my expertise to <strong>DevOps</strong> and <strong>cloud-native technologies</strong>, including <strong>Kubernetes</strong>, security management with <strong>Vault</strong>, and observability 
+  tools like <strong>OpenObserve</strong>. I've also gained knowledge in <strong>Generative AI (GenAI)</strong>, 
+  <strong>Retrieval Augmented Generation (RAG)</strong>, and <strong>Agentic AI</strong> through hands-on projects.
+</p>
+<p>
+  I'm passionate about building scalable, secure systems and AI-driven solutions. Whether it's 
+  optimizing algorithms, deploying containerized applications on Kubernetes, or building intelligent 
+  RAG systems, I bring dedication and curiosity to every project.
+</p>
           </div>
           
           <div className={styles.highlights}>

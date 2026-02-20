@@ -15,7 +15,7 @@ const skills = [
   },
   {
     category: 'DevOps & Cloud',
-    items: ['Docker', 'GitHub Actions', 'AWS', 'OpenObserve', 'Linux', 'CI/CD'],
+    items: ['Docker', 'Kubernetes', 'GitHub Actions', 'AWS', 'OpenObserve', 'Linux', 'CI/CD'],
   },
 ];
 
