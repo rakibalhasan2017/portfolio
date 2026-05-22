@@ -25,10 +25,8 @@ const courses = [
   {
     title: "DevOps & Cloud Engineering",
     provider: "BongoDev",
-    url: "https://www.bongodev.com/",
     certificates: [],
     icon: "☁️",
-    imageIcon: "/bongodev.png",
     isHighlighted: true,
   },
   {
@@ -100,29 +98,10 @@ const Education = () => {
                 key={course.title}
                 className={`${styles.courseCard} ${course.isHighlighted ? styles.highlightedCourse : ""}`}
               >
-                {course.imageIcon ? (
-                  <img
-                    src={course.imageIcon}
-                    alt={course.provider}
-                    className={styles.courseImageIcon}
-                  />
-                ) : (
-                  <span className={styles.courseIcon}>{course.icon}</span>
-                )}
+                <span className={styles.courseIcon}>{course.icon}</span>
                 <div className={styles.courseInfo}>
                   <h4>
-                    {course.url ? (
-                      <a
-                        href={course.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={styles.courseTitleLink}
-                      >
-                        {course.title}
-                      </a>
-                    ) : (
-                      course.title
-                    )}
+                    {course.title}
                     {course.isHighlighted && (
                       <span className={styles.highlightBadge}>
                         ⭐ Top Highlight
